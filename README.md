@@ -1,5 +1,9 @@
 ## Supporting repo for https://github.com/cloudflare/workers-sdk/issues/6211
 
+> [!NOTE]
+> This issue was resolved by https://github.com/cloudflare/workers-sdk/pull/6333.  
+> Validated in https://github.com/jldec/cloudflare-worker-fetch-type-issue/pull/2.
+
 ### Which Cloudflare product(s) does this pertain to?
 
 Impacts C3 "Hello World" TypeScript users - suspected bug in Workers Vitest Integration
