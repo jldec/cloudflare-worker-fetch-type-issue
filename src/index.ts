@@ -13,7 +13,7 @@
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
-		const response = await fetch("https://time.jldec.workers.dev/")
+		const response = await fetch("https://time.jldec.workers.dev/");
 		return new Response(response.body, response);
 	},
 } satisfies ExportedHandler<Env>;
